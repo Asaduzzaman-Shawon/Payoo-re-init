@@ -33,7 +33,7 @@ document.getElementById('cash-out-btn').addEventListener('click', function(e){
     const ammount = document.getElementById('ammount').innerText
     const c = parseFloat(ammount);
     if(pin === '1234'){
-        const total = c + a;
+        const total = c - a;
         document.getElementById('ammount').innerText = total
     }
     else{
