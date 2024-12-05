@@ -41,7 +41,6 @@ document.getElementById('cash-out-btn').addEventListener('click', function(e){
     }
 })
 
-console.log("hdvfd");
 
 
 
